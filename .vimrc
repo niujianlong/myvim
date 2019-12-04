@@ -30,6 +30,9 @@ set history=400
 set encoding=utf8
 set fileencodings=utf8,gb2312,gb18030,ucs-bom,latin1
 
+" always use mouse
+set mouse=a  
+
 if &term == "xterm"
     set t_Co=8
     set t_Sb=^[[4%dm
